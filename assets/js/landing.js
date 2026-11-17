@@ -17,7 +17,7 @@
     ['Profesional del vino', 'Sommeliers, enólogos, docentes y otros profesionales del sector.'],
     ['Comunicador/a', 'Periodistas, divulgadores y creadores de contenido sobre vino.'],
     ['Comercio', 'Vinotecas, restaurantes y otros comercios vinculados al vino.'],
-    [MIEMBRO, 'Personas que quieren descubrir, aprender y participar.']
+    [MIEMBRO, 'Personas que disfrutan el vino y quieren descubrirlo, aprender y participar.']
   ];
   var OPCIONES = {
     comunidad: ['Estoy empezando', 'Menos de 1.000 personas', '1.000 a 5.000', '5.000 a 20.000', 'Más de 20.000'],
@@ -45,6 +45,8 @@
       okTexto: 'Te vamos a escribir por email cuando Enófera abra el ingreso de nuevos miembros.'
     }
   };
+
+  var HINT = '¿Hacés, compartís o disfrutás el vino? Elegí la opción que mejor te describe.';
 
   var $ = function (s, r) { return (r || document).querySelector(s); };
   var $$ = function (s, r) { return Array.prototype.slice.call((r || document).querySelectorAll(s)); };
@@ -249,7 +251,7 @@
     Object.keys(errors).forEach(function (k) { showError(k, ''); });
     errors = {};
     status = 'idle';
-    $('#perfil-hint').textContent = 'Elegí la opción que mejor te describe.';
+    $('#perfil-hint').textContent = HINT;
   }
 
   // origen: 'miembro', 'preventa', 'proyecto' o vacío (botón general del encabezado).
@@ -263,7 +265,7 @@
     } else if (origen === 'proyecto' || origen === 'preventa') {
       if (picked('perfil')[0] === MIEMBRO) {
         pick('perfil', MIEMBRO, false);
-        $('#perfil-hint').textContent = 'Elegí la opción que mejor te describe.';
+        $('#perfil-hint').textContent = HINT;
       }
       setModo('proyecto');
       if (origen === 'preventa') pick('intereses', PREVENTA);

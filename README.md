@@ -1,6 +1,6 @@
 # Enófera · landing
 
-Nueva versión de la landing de prelanzamiento, reescrita a partir de la revisión integral de Lucho. Cambia el enfoque: Enófera se presenta como un espacio para todo el ecosistema del vino (anfitriones, creadores y miembros), no solo como una herramienta de venta para creadores.
+Nueva versión de la landing de prelanzamiento, reescrita a partir de la revisión integral de Lucho. Cambia el enfoque: Enófera se presenta como un espacio creado por y para quienes hacen, comparten y disfrutan el mundo del vino, no solo como una herramienta de venta para creadores.
 
 - **Sitio publicado:** https://lucasfloreslucero-agil.github.io/enofera/
 - **Landing anterior (sin cambios):** https://lucasfloreslucero-agil.github.io/enosfera/
