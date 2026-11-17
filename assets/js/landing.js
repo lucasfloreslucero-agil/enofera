@@ -1,4 +1,4 @@
-/* Landing de Enófera: modal de postulación, formulario por perfil y gráfico de comunidades. */
+/* Landing de Enosfera: modal de postulación, formulario por perfil y gráfico de comunidades. */
 (function () {
   'use strict';
 
@@ -27,7 +27,7 @@
   var PROVINCIAS = ['Buenos Aires', 'Ciudad de Buenos Aires', 'Catamarca', 'Chaco', 'Chubut', 'Córdoba', 'Corrientes', 'Entre Ríos', 'Formosa', 'Jujuy', 'La Pampa', 'La Rioja', 'Mendoza', 'Misiones', 'Neuquén', 'Río Negro', 'Salta', 'San Juan', 'San Luis', 'Santa Cruz', 'Santa Fe', 'Santiago del Estero', 'Tierra del Fuego', 'Tucumán'];
   var TEXTOS = {
     proyecto: {
-      titulo: 'Presentá tu proyecto y formá parte de Enófera.',
+      titulo: 'Presentá tu proyecto y formá parte de Enosfera.',
       intro: 'Queremos conocer quién sos, qué relación tenés con el mundo del vino y qué propuestas te gustaría desarrollar dentro de la comunidad.',
       intereses: '¿Qué propuestas te gustaría desarrollar?',
       boton: 'Enviar postulación',
@@ -36,13 +36,13 @@
       okTexto: 'Vamos a leerla con atención y te responderemos por email o por WhatsApp.'
     },
     miembro: {
-      titulo: 'Sumate a la comunidad de Enófera.',
+      titulo: 'Sumate a la comunidad de Enosfera.',
       intro: 'Contanos qué te interesa del mundo del vino. Te vamos a avisar cuando abramos el ingreso de nuevos miembros.',
       intereses: '¿Qué te interesa del mundo del vino?',
       boton: 'Quiero sumarme',
       nota: 'Sumarte es gratuito y no implica ningún compromiso.',
       ok: '¡Gracias por sumarte!',
-      okTexto: 'Te vamos a escribir por email cuando Enófera abra el ingreso de nuevos miembros.'
+      okTexto: 'Te vamos a escribir por email cuando Enosfera abra el ingreso de nuevos miembros.'
     }
   };
 
@@ -159,7 +159,7 @@
       preventa: esMiembro ? '' : form.proyecto.value.trim(),
       hoy: esMiembro ? '' : form.hoy.value.trim(),
       acepta: form.acepta.checked,
-      landing: 'Enófera',
+      landing: 'Enosfera · ecosistema',
       sitio: form.sitio.value
     };
   }

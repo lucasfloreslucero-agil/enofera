@@ -1,6 +1,6 @@
-# Enófera · landing
+# Enosfera · landing
 
-Nueva versión de la landing de prelanzamiento, reescrita a partir de la revisión integral de Lucho. Cambia el enfoque: Enófera se presenta como un espacio creado por y para quienes hacen, comparten y disfrutan el mundo del vino, no solo como una herramienta de venta para creadores.
+Nueva versión de la landing de prelanzamiento, reescrita a partir de la revisión integral de Lucho. Cambia el enfoque: Enosfera se presenta como un espacio creado por y para quienes hacen, comparten y disfrutan el mundo del vino, no solo como una herramienta de venta para creadores.
 
 - **Sitio publicado:** https://lucasfloreslucero-agil.github.io/enofera/
 - **Landing anterior (sin cambios):** https://lucasfloreslucero-agil.github.io/enosfera/
@@ -9,7 +9,7 @@ Nueva versión de la landing de prelanzamiento, reescrita a partir de la revisi�
 
 ## Qué cambió respecto de la landing anterior
 
-- **Nombre y eslogan:** "Enófera" en toda la página y "El mundo del vino en tus manos" como eslogan.
+- **Nombre y eslogan:** "Enosfera" en toda la página y "El mundo del vino en tus manos" como eslogan.
 - **Tono:** cercano y profesional. Sin expresiones como "tu gente", "la plata", "a mano", "qué descorchar" o "te leen".
 - **Arquitectura:** presentación, para quién es, propósito, cómo funciona, herramientas, qué podés hacer, compras anticipadas, ecosistema conectado, miembros, pagos y gestión, cómo participar, preguntas frecuentes y cierre.
 - **Miembros:** sección propia y botón "Sumate como miembro" en hero, para quién es, cómo participar y cierre.
@@ -31,7 +31,7 @@ Nueva versión de la landing de prelanzamiento, reescrita a partir de la revisi�
 
 ## Formulario
 
-Envía a la misma planilla que la landing anterior ("Enosfera · Postulaciones de creadores"). Los campos nuevos se guardan en las columnas existentes: "Tipo de creador" recibe el perfil, "Seguidores" la comunidad actual, "Preventa" el proyecto en mente y "Cómo vende hoy" la forma de comercializar. El envío incluye `landing: "Enófera"`, pero el script actual no guarda ese dato: para distinguir el origen hay que sumar una columna en el script. Para revisar los estados sin enviar nada, abrir la página con `?demo=ok` o `?demo=error`.
+Envía a la misma planilla que la landing anterior ("Enosfera · Postulaciones de creadores"). Los campos nuevos se guardan en las columnas existentes: "Tipo de creador" recibe el perfil, "Seguidores" la comunidad actual, "Preventa" el proyecto en mente y "Cómo vende hoy" la forma de comercializar. El envío incluye `landing: "Enosfera · ecosistema"`, pero el script actual no guarda ese dato: para distinguir el origen hay que sumar una columna en el script. Para revisar los estados sin enviar nada, abrir la página con `?demo=ok` o `?demo=error`.
 
 ## Pendientes antes de difundir
 
