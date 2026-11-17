@@ -1,8 +1,8 @@
-# Enosfera · landing
+# Enosfera · landing del ecosistema
 
 Nueva versión de la landing de prelanzamiento, reescrita a partir de la revisión integral de Lucho. Cambia el enfoque: Enosfera se presenta como un espacio creado por y para quienes hacen, comparten y disfrutan el mundo del vino, no solo como una herramienta de venta para creadores.
 
-- **Sitio publicado:** https://lucasfloreslucero-agil.github.io/enofera/
+- **Sitio publicado:** https://lucasfloreslucero-agil.github.io/enosfera-ecosistema/
 - **Landing anterior (sin cambios):** https://lucasfloreslucero-agil.github.io/enosfera/
 - **Publicación:** GitHub Pages desde la rama `main` (raíz). Cada push a `main` actualiza el sitio.
 - **Estado:** en revisión. La página lleva `noindex` para que los buscadores no la listen todavía.
